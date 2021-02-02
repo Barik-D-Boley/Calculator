@@ -1,0 +1,92 @@
+p {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 2.8rem;
+    font-size: 2rem;
+}
+
+.calcContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 6.25rem);
+    grid-template-rows: repeat(6, 6.25rem);
+}
+    .answer {
+        grid-column: 1 / span 3;
+        grid-row: 1 / span 1;
+        border: black 1px solid;
+    }
+    .one {
+        grid-column: 1 / span 1;
+        grid-row: 2 / span 1;
+        border: black 1px solid;
+    }
+    .two {
+        grid-column: 2 / span 1;
+        grid-row: 2 / span 1;
+        border: black 1px solid;
+    }
+    .three {
+        grid-column: 3 / span 1;
+        grid-row: 2 / span 1;
+        border: black 1px solid;
+    }
+    .four {
+        grid-column: 1 / span 1;
+        grid-row: 3 / span 1;
+        border: black 1px solid;
+    }
+    .five {
+        grid-column: 2 / span 1;
+        grid-row: 3 / span 1;
+        border: black 1px solid;
+    }
+    .six {
+        grid-column: 3 / span 1;
+        grid-row: 3 / span 1;
+        border: black 1px solid;
+    }
+    .seven {
+        grid-column: 1 / span 1;
+        grid-row: 4 / span 1;
+        border: black 1px solid;
+    }
+    .eight {
+        grid-column: 2 / span 1;
+        grid-row: 4 / span 1;
+        border: black 1px solid;
+    }
+    .nine {
+        grid-column: 3 / span 1;
+        grid-row: 4 / span 1;
+        border: black 1px solid;
+    }
+    .zero {
+        grid-column: 1 / span 1;
+        grid-row: 5 / span 1;
+        border: black 1px solid;
+    }
+    .plus {
+        grid-column: 2 / span 1;
+        grid-row: 5 / span 1;
+        border: black 1px solid;
+    }
+    .minus {
+        grid-column: 3 / span 1;
+        grid-row: 5 / span 1;
+        border: black 1px solid;
+    }
+    .multiply {
+        grid-column: 1 / span 1;
+        grid-row: 6 / span 1;
+        border: black 1px solid;
+    }
+    .divide {
+        grid-column: 2 / span 1;
+        grid-row: 6 / span 1;
+        border: black 1px solid;
+    }
+    .equal {
+        grid-column: 3 / span 1;
+        grid-row: 6 / span 1;
+        border: black 1px solid;
+    }
