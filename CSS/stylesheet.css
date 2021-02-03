@@ -1,0 +1,141 @@
+/*Centers the Text*/
+p {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 2.8rem;
+    font-size: 2rem;
+}
+/*Colors the div boxes*/
+#number {
+    background-color: lightgray;
+}
+#nan {
+    background-color: darkgray;
+}
+#equal {
+    background-color: #0066ff;
+    color: white;
+}
+
+
+.calcContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 6.25rem);
+    grid-template-rows: repeat(6, 6.25rem);
+}
+/*Answer Bar*/
+    .answer {
+        grid-column: 1 / span 4;
+        grid-row: 1 / span 1;
+        border: black 1px solid;
+    }
+
+/*Parentheses and Clear*/
+    .openPar {
+        grid-column: 1 / span 1;
+        grid-row: 2 / span 1;
+        border: black 1px solid;
+    }
+    .closePar {
+        grid-column: 2 / span 1;
+        grid-row: 2 / span 1;
+        border: black 1px solid;
+    }
+    .percent {
+        grid-column: 3 / span 1;
+        grid-row: 2 / span 1;
+        border: black 1px solid;
+    }
+    .clear {
+        grid-column: 4 / span 1;
+        grid-row: 2 / span 1;
+        border: black 1px solid;
+    }
+
+/*Seven - Nine*/
+    .seven {
+        grid-column: 1 / span 1;
+        grid-row: 3 / span 1;
+        border: black 1px solid;
+    }
+    .eight {
+        grid-column: 2 / span 1;
+        grid-row: 3 / span 1;
+        border: black 1px solid;
+    }
+    .nine {
+        grid-column: 3 / span 1;
+        grid-row: 3 / span 1;
+        border: black 1px solid;
+    }
+    .divide {
+        grid-column: 4 / span 1;
+        grid-row: 3 / span 1;
+        border: black 1px solid;
+    }
+
+/*Four - Six*/
+    .four {
+        grid-column: 1 / span 1;
+        grid-row: 4 / span 1;
+        border: black 1px solid;
+    }
+    .five {
+        grid-column: 2 / span 1;
+        grid-row: 4 / span 1;
+        border: black 1px solid;
+    }
+    .six {
+        grid-column: 3 / span 1;
+        grid-row: 4 / span 1;
+        border: black 1px solid;
+    }
+    .multiply {
+        grid-column: 4 / span 1;
+        grid-row: 4 / span 1;
+        border: black 1px solid;
+    }
+
+/*One - Three*/
+    .one {
+        grid-column: 1 / span 1;
+        grid-row: 5 / span 1;
+        border: black 1px solid;
+    }
+    .two {
+        grid-column: 2 / span 1;
+        grid-row: 5 / span 1;
+        border: black 1px solid;
+    }
+    .three {
+        grid-column: 3 / span 1;
+        grid-row: 5 / span 1;
+        border: black 1px solid;
+    }
+    .minus {
+        grid-column: 4 / span 1;
+        grid-row: 5 / span 1;
+        border: black 1px solid;
+    }
+
+/*Zero and Equal*/
+    .zero {
+        grid-column: 1 / span 1;
+        grid-row: 6 / span 1;
+        border: black 1px solid;
+    }
+    .decimal {
+        grid-column: 2 / span 1;
+        grid-row: 6 / span 1;
+        border: black 1px solid;
+    }
+    .equal {
+        grid-column: 3 / span 1;
+        grid-row: 6 / span 1;
+        border: black 1px solid;
+    }
+    .plus {
+        grid-column: 4 / span 1;
+        grid-row: 6 / span 1;
+        border: black 1px solid;
+    }
